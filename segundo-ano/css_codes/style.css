@@ -1,0 +1,18 @@
+ /*seletor de classe css*/
+
+   .centralizado {
+    /*propriedade: valor;*/
+    text-align: center;
+   }
+
+   .grande {
+    font-size: large;
+   }
+
+   .medio{
+    font-size: medium;
+   }
+
+   .pequeno {
+    font-size: small;
+   }
