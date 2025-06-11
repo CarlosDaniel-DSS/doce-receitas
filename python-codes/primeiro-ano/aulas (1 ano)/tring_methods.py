@@ -1,6 +1,0 @@
-nome = input("Qual o seu nome?")
-nome, sobrenome = nome.title().split()
-print("Bem-vindo", nome, sobrenome, end="!")
-# print.(nome.strip(), end="")
-# print.(nome.rstrip(), end="")
-# print.(nome.lstrip())
