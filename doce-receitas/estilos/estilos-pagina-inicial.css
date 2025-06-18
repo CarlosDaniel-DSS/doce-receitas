@@ -11,7 +11,7 @@
 
 /* estilo do navbar*/
 nav {
-    background-color:#584b41;
+    background-color: #584b41;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +43,7 @@ nav a {
     padding: 15px 25px;
     border-radius: 12px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    color:#1d1908
+    color: #1d1908;
 }
 
 /* estilos dos cards dos doces */
@@ -51,14 +51,14 @@ nav a {
     width: 220px;
     background-color: #defffa;
     border-radius: 12px;
-    border-color:#000000;
+    border-color: #000000;
     border-style: solid;
-    box-shadow: o 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 15px;    
 }
 
 .card-doce:hover {
-    transform: scale(1.10)
+    transform: scale(1.10);
 }
 
 .card-doce img {
@@ -69,7 +69,7 @@ nav a {
 .card-doce p {
     margin-top: 10px;
     font-size: 0.95rem;
-    color: #5a1e1e
+    color: #5a1e1e;
 }
 
 /* estilos de caixas */
@@ -103,12 +103,11 @@ nav a {
     font-style: normal;
 }
 
-
 .playwrite-hu-uniquifier {
-  font-family: "Playwrite HU", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .ancizar-serif {
@@ -129,7 +128,55 @@ nav a {
 
 /* footer */
 footer {
-    background-color:#423831;
+    background-color: #423831;
     color: white;
     padding: 15px 0;
+}
+
+/* -------- RESPONSIVIDADE -------- */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-box-subtitulo {
+        margin-left: 0;
+        max-width: 90%;
+    }
+
+    .descricao-doces {
+        padding: 10px 15px;
+        margin: 20px auto;
+    }
+
+    .card-doce {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .card-doce {
+        width: 90%;
+    }
+
+    .title-box {
+        font-size: 24px;
+        padding: 8px;
+    }
+
+    .title-box-subtitulo {
+        font-size: 18px;
+        padding: 8px;
+    }
 }
