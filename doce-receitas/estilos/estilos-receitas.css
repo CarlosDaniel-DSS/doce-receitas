@@ -43,7 +43,7 @@ nav a {
     padding: 15px 25px;
     border-radius: 12px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    color:#1d1908
+    color:#1d1908;
 }
 
 /* Estilos do main */
@@ -92,12 +92,11 @@ main {
     font-style: normal;
 }
 
-
 .playwrite-hu-uniquifier {
-  font-family: "Playwrite HU", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .ancizar-serif {
@@ -121,4 +120,22 @@ footer {
     background-color:#423831;
     color: white;
     padding: 15px 0;
+}
+
+/* ===== Responsividade para mobile ===== */
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    
+    .title-box-subtitulo {
+        margin-left: 0; /* remover margem lateral que atrapalha em telas pequenas */
+        max-width: 100%;
+    }
+
+    nav {
+        justify-content: space-around;
+    }
 }
