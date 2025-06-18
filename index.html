@@ -1,5 +1,4 @@
-
-<!DOCTYPE html>
+e por fim, corrija o index: <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
@@ -15,28 +14,29 @@
       crossorigin="anonymous"
     >
 
-    <!-- Estilos da página inicial -->
+    <!--Estilos da página inicial-->
     <link 
-      href="doce-receitas/estilos/estilos-pagina-inicial.css"
-      rel="stylesheet"
+      href= "doce-receitas/estilos/estilos-pagina-inicial.css"
+      rel= "stylesheet"
     >
     
-    <!-- Ícone do site -->
+    <!--Ícone do site-->
     <link rel="icon" href="doce-receitas/imagens/Ícone-do-site.png">
 
-    <!-- Nome da página -->
-    <title>Doces Receitas</title>
+    <!--Nome da página-->
+    <title>Doces receitas</title>
 
 </head>
+<!--../projetos/irjiog-->
 
 <body class="bg-white text-dark">
 
   <header class="header">
 
-    <div class="container py-5">
+    <div class="container py5">
 
       <h2 class="pacifico-regular">
-        Seja bem-vindo à
+        Seja bem vindo à
       </h2>
 
       <h1 class="title-box alfa-slab-one-regular">
@@ -50,7 +50,7 @@
     </div>
   </header>
 
-  <!-- Barra de navegação -->
+  <!--barra de navegação-->
   <nav class="container">
     
     <a href="index.html"> 
@@ -67,11 +67,63 @@
 
   <main>
     
-    <div id="sobre" class="descricao-texto container py-5">
+    <div id="sobre" class="descricao-doces playwrite-hu-uniquifier container py-5">
       Descubra novas receitas de doces irresistíveis, preparados com carinho para adoçar seus dias.
       De brigadeiros clássicos a delícias criativas, temos o doce perfeito para cada momento!
     </div>
     
     <div 
-      id="receitas" 
-      style="displa
+    id="receitas" 
+    style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; height: 100vh; gap: 10%;"
+    >
+      
+      <!--Imagem e descrição do brigadeiro-->
+      <div class="card-doce centralizado">
+      <a href="doce-receitas/receitas/brigadeiro.html">
+      <img 
+        src="doce-receitas/imagens/brigadeiro.jpg" 
+        alt="imagem de brigadeiros" 
+        width="18%"
+        height="auto"
+      >
+      </a>
+      <p> Brigadeiro tradicional com granulado de chocolate </p>
+      </div>
+
+      <!--Imagem e dscrição do beijinho-->
+      <div class="card-doce centralizado">
+      <a href="doce-receitas/receitas/beijinho.html">
+      <img 
+        src="doce-receitas/imagens/beijinho.jpg" 
+        alt="imagem de beijinhos" 
+        width="18%"
+        height="auto"  
+      >
+      </a>
+      <p> Beijinho de coco coberto com açucar cristal </p>
+      </div>
+
+      <!--Imagem e descrição da trufa-->
+      <div class="card-doce centralizado">
+      <a href="doce-receitas/receitas/trufa.html">
+      <img 
+        src="doce-receitas/imagens/trufa.jpg" 
+        alt="imagem de trufas" 
+        width="18%"
+        height="auto"
+      >
+      </a>
+      <p> Trufa de leite condensado caseiro </p>
+      </div>
+
+    </div>
+
+  </main>
+  
+  <footer class="centralizado">
+
+    &copy; 2025 Carlos Daniel. Todos os direitos reservados
+
+  </footer>
+
+</body>
